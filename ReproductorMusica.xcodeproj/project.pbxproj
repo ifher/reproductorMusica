@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1304DE61C569AAF00D18F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1304DE51C569AAF00D18F9E /* AppDelegate.swift */; };
+		C1304DE81C569AAF00D18F9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1304DE71C569AAF00D18F9E /* ViewController.swift */; };
+		C1304DEB1C569AAF00D18F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1304DE91C569AAF00D18F9E /* Main.storyboard */; };
+		C1304DED1C569AAF00D18F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1304DEC1C569AAF00D18F9E /* Assets.xcassets */; };
+		C1304DF01C569AAF00D18F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1304DEE1C569AAF00D18F9E /* LaunchScreen.storyboard */; };
+		C1304E021C56A0D400D18F9E /* AM - Memento Mori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1304DF81C56A0D400D18F9E /* AM - Memento Mori.mp3 */; };
+		C1304E031C56A0D400D18F9E /* AM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1304DF91C56A0D400D18F9E /* AM.jpg */; };
+		C1304E041C56A0D400D18F9E /* CF - You & I.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFA1C56A0D400D18F9E /* CF - You & I.mp3 */; };
+		C1304E051C56A0D400D18F9E /* CF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFB1C56A0D400D18F9E /* CF.jpg */; };
+		C1304E061C56A0D400D18F9E /* DP - Get Lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFC1C56A0D400D18F9E /* DP - Get Lucky.mp3 */; };
+		C1304E071C56A0D400D18F9E /* DP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFD1C56A0D400D18F9E /* DP.jpg */; };
+		C1304E081C56A0D400D18F9E /* KL - Use Somebody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFE1C56A0D400D18F9E /* KL - Use Somebody.mp3 */; };
+		C1304E091C56A0D400D18F9E /* KL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1304DFF1C56A0D400D18F9E /* KL.jpg */; };
+		C1304E0A1C56A0D400D18F9E /* SS - Cancion De Guerra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1304E001C56A0D400D18F9E /* SS - Cancion De Guerra.mp3 */; };
+		C1304E0B1C56A0D400D18F9E /* SS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1304E011C56A0D400D18F9E /* SS.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1304DE21C569AAF00D18F9E /* ReproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1304DE51C569AAF00D18F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1304DE71C569AAF00D18F9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1304DEA1C569AAF00D18F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1304DEC1C569AAF00D18F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1304DEF1C569AAF00D18F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1304DF11C569AAF00D18F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1304DF81C56A0D400D18F9E /* AM - Memento Mori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AM - Memento Mori.mp3"; sourceTree = "<group>"; };
+		C1304DF91C56A0D400D18F9E /* AM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AM.jpg; sourceTree = "<group>"; };
+		C1304DFA1C56A0D400D18F9E /* CF - You & I.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CF - You & I.mp3"; sourceTree = "<group>"; };
+		C1304DFB1C56A0D400D18F9E /* CF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CF.jpg; sourceTree = "<group>"; };
+		C1304DFC1C56A0D400D18F9E /* DP - Get Lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DP - Get Lucky.mp3"; sourceTree = "<group>"; };
+		C1304DFD1C56A0D400D18F9E /* DP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DP.jpg; sourceTree = "<group>"; };
+		C1304DFE1C56A0D400D18F9E /* KL - Use Somebody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KL - Use Somebody.mp3"; sourceTree = "<group>"; };
+		C1304DFF1C56A0D400D18F9E /* KL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KL.jpg; sourceTree = "<group>"; };
+		C1304E001C56A0D400D18F9E /* SS - Cancion De Guerra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SS - Cancion De Guerra.mp3"; sourceTree = "<group>"; };
+		C1304E011C56A0D400D18F9E /* SS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SS.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1304DDF1C569AAF00D18F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1304DD91C569AAF00D18F9E = {
+			isa = PBXGroup;
+			children = (
+				C1304DE41C569AAF00D18F9E /* ReproductorMusica */,
+				C1304DE31C569AAF00D18F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1304DE31C569AAF00D18F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1304DE21C569AAF00D18F9E /* ReproductorMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1304DE41C569AAF00D18F9E /* ReproductorMusica */ = {
+			isa = PBXGroup;
+			children = (
+				C1304DF81C56A0D400D18F9E /* AM - Memento Mori.mp3 */,
+				C1304DF91C56A0D400D18F9E /* AM.jpg */,
+				C1304DFA1C56A0D400D18F9E /* CF - You & I.mp3 */,
+				C1304DFB1C56A0D400D18F9E /* CF.jpg */,
+				C1304DFC1C56A0D400D18F9E /* DP - Get Lucky.mp3 */,
+				C1304DFD1C56A0D400D18F9E /* DP.jpg */,
+				C1304DFE1C56A0D400D18F9E /* KL - Use Somebody.mp3 */,
+				C1304DFF1C56A0D400D18F9E /* KL.jpg */,
+				C1304E001C56A0D400D18F9E /* SS - Cancion De Guerra.mp3 */,
+				C1304E011C56A0D400D18F9E /* SS.jpg */,
+				C1304DE51C569AAF00D18F9E /* AppDelegate.swift */,
+				C1304DE71C569AAF00D18F9E /* ViewController.swift */,
+				C1304DE91C569AAF00D18F9E /* Main.storyboard */,
+				C1304DEC1C569AAF00D18F9E /* Assets.xcassets */,
+				C1304DEE1C569AAF00D18F9E /* LaunchScreen.storyboard */,
+				C1304DF11C569AAF00D18F9E /* Info.plist */,
+			);
+			path = ReproductorMusica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1304DE11C569AAF00D18F9E /* ReproductorMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1304DF41C569AAF00D18F9E /* Build configuration list for PBXNativeTarget "ReproductorMusica" */;
+			buildPhases = (
+				C1304DDE1C569AAF00D18F9E /* Sources */,
+				C1304DDF1C569AAF00D18F9E /* Frameworks */,
+				C1304DE01C569AAF00D18F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorMusica;
+			productName = ReproductorMusica;
+			productReference = C1304DE21C569AAF00D18F9E /* ReproductorMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1304DDA1C569AAF00D18F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fer;
+				TargetAttributes = {
+					C1304DE11C569AAF00D18F9E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C1304DDD1C569AAF00D18F9E /* Build configuration list for PBXProject "ReproductorMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1304DD91C569AAF00D18F9E;
+			productRefGroup = C1304DE31C569AAF00D18F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1304DE11C569AAF00D18F9E /* ReproductorMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1304DE01C569AAF00D18F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1304E0B1C56A0D400D18F9E /* SS.jpg in Resources */,
+				C1304E081C56A0D400D18F9E /* KL - Use Somebody.mp3 in Resources */,
+				C1304E031C56A0D400D18F9E /* AM.jpg in Resources */,
+				C1304E061C56A0D400D18F9E /* DP - Get Lucky.mp3 in Resources */,
+				C1304E091C56A0D400D18F9E /* KL.jpg in Resources */,
+				C1304E051C56A0D400D18F9E /* CF.jpg in Resources */,
+				C1304E0A1C56A0D400D18F9E /* SS - Cancion De Guerra.mp3 in Resources */,
+				C1304E071C56A0D400D18F9E /* DP.jpg in Resources */,
+				C1304DF01C569AAF00D18F9E /* LaunchScreen.storyboard in Resources */,
+				C1304E041C56A0D400D18F9E /* CF - You & I.mp3 in Resources */,
+				C1304DED1C569AAF00D18F9E /* Assets.xcassets in Resources */,
+				C1304E021C56A0D400D18F9E /* AM - Memento Mori.mp3 in Resources */,
+				C1304DEB1C569AAF00D18F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1304DDE1C569AAF00D18F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1304DE81C569AAF00D18F9E /* ViewController.swift in Sources */,
+				C1304DE61C569AAF00D18F9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1304DE91C569AAF00D18F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1304DEA1C569AAF00D18F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1304DEE1C569AAF00D18F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1304DEF1C569AAF00D18F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1304DF21C569AAF00D18F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1304DF31C569AAF00D18F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1304DF51C569AAF00D18F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cursoHardware.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1304DF61C569AAF00D18F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cursoHardware.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1304DDD1C569AAF00D18F9E /* Build configuration list for PBXProject "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1304DF21C569AAF00D18F9E /* Debug */,
+				C1304DF31C569AAF00D18F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1304DF41C569AAF00D18F9E /* Build configuration list for PBXNativeTarget "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1304DF51C569AAF00D18F9E /* Debug */,
+				C1304DF61C569AAF00D18F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1304DDA1C569AAF00D18F9E /* Project object */;
+}
